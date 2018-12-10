@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+logging:
+  config: classpath:logback-spring.xml
+
+#idea控制台默认日志级别
+debug: true
